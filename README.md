@@ -31,7 +31,10 @@ Barcode recognition software
     barcode-reader - имя Docker-образа приложения
     
     Пример:
-    ```docker run -it -v "D:\MyBarcodes":/app/input_images barcode-reader```
+
+    ```bash
+    docker run -it -v "D:\MyBarcodes":/app/input_images barcode-reader
+    ```
 
 
 3. В открывшемся приложении вы можете вввести 
@@ -39,7 +42,7 @@ Barcode recognition software
     ```bash
     /app/input_images/название_файла
     ```
-    Далее высветится информация о вашем изображении
+    Далее высветится информация о вашем образе
 
 4. Для выхода введите ```0```
 
@@ -59,7 +62,10 @@ Barcode recognition software
     barcode-reader is the name of the Docker image of the application.
     
     Example:
-    ```docker run -it -v' "D:\MyBarcodes ":/app/input_images barcode-reader```
+    
+   ```bash
+    docker run -it -v "D:\MyBarcodes":/app/input_images barcode-reader
+    ```
 
 3. In the application that opens, you can enter 
 
